@@ -1,0 +1,5 @@
+a=int(input())
+a=bin(a)
+a=str(a)
+a=a.count('1')
+print(a)
