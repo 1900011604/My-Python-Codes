@@ -14,7 +14,7 @@ import re
 import openpyxl as op
 from openpyxl.styles import Alignment
 wb = op.load_workbook(
-    filename='C:/Users/17732/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
+    filename='C:/Users/19000/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
 # 这个地址需要按照实际情况更改！
 s1 = wb['课程表']
 s2 = wb['成绩表']
@@ -68,7 +68,7 @@ for i in range(1, Mrow1+1):
         s1.column_dimensions.width = 20.0
         s1.cell(i, j).alignment = Alignment(
             horizontal='center', vertical='center')
-wb.save('C:/Users/17732/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
+wb.save('C:/Users/19000/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
 
 print('修改成绩表中，学号为“xxx”，课程号为“xxx”的成绩')
 StudentID7 = input()
@@ -83,7 +83,7 @@ for i in range(1, Mrow2+1):  # 先行后列，从1开始
         y = s2.cell(i, j).value
         if str(x) == StudentID7 and str(y) == ClassID7:
             s2.cell(i, j+1).value = Score
-            wb.save('C:/Users/17732/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
+            wb.save('C:/Users/19000/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
             # 这个操作应该在Excel关闭的时候完成，如果已经打开了Excel，无法保存！
 
 print('删除成绩表中，学号为“xxx”，课程号为“xxx”的成绩')
@@ -95,6 +95,6 @@ for i in range(1, Mrow2+1):  # 先行后列，从1开始
         y = s2.cell(i, j).value
         if str(x) == StudentID8:
             s2.delete_rows(i)
-            wb.save('C:/Users/17732/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
+            wb.save('C:/Users/19000/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
             print('成绩已删除！')
             # 这个操作应该在Excel关闭的时候完成，如果已经打开了Excel，无法保存！

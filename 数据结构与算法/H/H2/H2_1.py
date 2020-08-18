@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  2 19:16:27 2020
 
-@author: 1773296008
-"""
 #[H2.1]做计时实验，验证list的按索引取值确实是O(1)
 import numpy as np
 import matplotlib.pyplot as plt

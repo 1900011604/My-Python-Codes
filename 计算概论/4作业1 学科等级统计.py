@@ -1,4 +1,4 @@
-path='C:/Users/17732/Desktop/PKU Courses/计算概论/作业/4作业1 学科等级统计 score.txt'
+path='C:/Users/19000/Desktop/PKU Courses/计算概论/作业/4作业1 学科等级统计 score.txt'
 with open(path,encoding='utf-8') as f:
     score = f.readlines()
 f.close()
@@ -20,7 +20,7 @@ for i in range(1,len(score)):
     else:
         lil.append(sil[0])
         lil.append('及格')
-a=open('C:/Users/17732/Desktop/PKU Courses/计算概论/作业/4作业1 学科等级统计 level.txt','w')
+a=open('C:/Users/19000/Desktop/PKU Courses/计算概论/作业/4作业1 学科等级统计 level.txt','w')
 j=0
 while j<len(lil):
     lis=lis+str(lil[j])+'\t'

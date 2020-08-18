@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  2 19:16:32 2020
 
-@author: 1773296008
-"""
 #[H2.3]做计时实验，比较list和dict的del操作符性能
 
 #H2.3.2 dict中del操作符的性能

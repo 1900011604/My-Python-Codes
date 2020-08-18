@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  2 19:16:31 2020
 
-@author: 1773296008
-"""
 #[H2.2.2]做计时实验，验证dict的set item是O(1)的
 import numpy as np
 import matplotlib.pyplot as plt
