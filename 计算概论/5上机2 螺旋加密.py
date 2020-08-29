@@ -1,13 +1,14 @@
 import re
-shuru = input()
-l1 = re.findall('\d{1,2}', shuru)
+
+Input = input()
+l1 = re.findall('\d{1,2}', Input)
 R, C = int(l1[0]), int(l1[1])
 str1 = ''
 for q in range(len(l1)):
     str1 += l1[q]
     str1 += ' '
 
-string = shuru.lstrip(str1)
+string = Input.lstrip(str1)
 code1 = []
 for y in range(len(string)):
     if string[y] == ' ':
