@@ -1,4 +1,4 @@
-def IsPrime(n):
+def isPrime(n):
     if n==2:
         return True
     else:
@@ -12,7 +12,7 @@ def IsPrime(n):
 
 a=int(input())
 for i in range(1,a+1):
-    if IsPrime(i) and IsPrime(i-2):
+    if isPrime(i) and isPrime(i-2):
         print(i-2,i)
     elif a<5:
         print("empty")
