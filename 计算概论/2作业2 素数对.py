@@ -9,6 +9,7 @@ def IsPrime(n):
             elif i*i>n:
                 return True
                 break
+
 a=int(input())
 for i in range(1,a+1):
     if IsPrime(i) and IsPrime(i-2):
