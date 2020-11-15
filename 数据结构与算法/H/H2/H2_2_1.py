@@ -54,7 +54,7 @@ dy21 = ymax21 / 5
 x21 = np.arange(0, xmax21 + 0.5*dx21, 0.01) #绘直线用
 plt.figure(figsize=(16, 10))
 plt.scatter(x_list21, y_list21, color='g', marker='+')
-plt.plot(x21, r[0]*x21+r[1] , color='r')
+plt.plot(x21, r[0]*x21+r[1], color='r')
 plt.title('H2.2.1', fontsize=24)
 plt.xlabel("n(*10^6)", fontsize=16)
 plt.ylabel("time(s)", fontsize=16)
