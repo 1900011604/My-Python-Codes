@@ -13,9 +13,9 @@
 import re
 import openpyxl as op
 from openpyxl.styles import Alignment
+
 wb = op.load_workbook(
-    filename='C:/Users/19000/Desktop/PKU Courses/计算概论/作业/8作业1 数据库.xlsx')
-# 这个地址需要按照实际情况更改！
+    filename='./计算概论/作业/8作业1 数据库.xlsx')
 s1 = wb['课程表']
 s2 = wb['成绩表']
 

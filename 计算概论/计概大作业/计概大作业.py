@@ -7,7 +7,7 @@ import openpyxl as op
 
 
 # 导入观测数据
-wb = op.load_workbook(filename='(file_path)/观测数据1.xlsx')
+wb = op.load_workbook(filename='./观测数据1.xlsx')
 # 这个地址需要按照实际情况更改！共有两组观测数据。
 s1 = wb['恒星数据']
 s2 = wb['光变曲线']
